@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>二次研究全流程 - 医学科研多智能体平台</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo">MedMulti<span>Agents</span></div>
+    <nav class="main-nav">
+      <a href="index.html">首页</a>
+      <a href="classification.html">医学科研分类</a>
+      <a href="secondary-research.html" class="active">二次研究全流程</a>
+      <a href="agents.html">智能体交互</a>
+      <a href="profile.html">个人中心</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <div class="section-header">
+      <h1>临床医学二次研究全流程</h1>
+      <p>覆盖系统评价、Meta 分析、综述等类型的全流程多智能体交互：从选题到返修，按顺序串联，实时记录进度。</p>
+      <div class="flow-progress" id="flow-progress">
+        <div class="step active">选题</div>
+        <div class="step">数据获取</div>
+        <div class="step">数据清洗</div>
+        <div class="step">数据分析</div>
+        <div class="step">图表制作</div>
+        <div class="step">论文写作</div>
+        <div class="step">选刊</div>
+        <div class="step">投稿</div>
+        <div class="step">返修</div>
+      </div>
+    </div>
+
+    <section class="flow-grid" id="secondary-flow">
+      <!-- Modules injected by script.js -->
+    </section>
+
+    <aside class="flow-summary">
+      <h2>流程记录</h2>
+      <p class="muted">记录当前科研流程状态，便于跨模块协作。</p>
+      <ul id="flow-log" class="flow-log"></ul>
+    </aside>
+  </main>
+
+  <footer class="site-footer">
+    <p>医学科研多智能体平台 · 临床二次研究全流程编排</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
