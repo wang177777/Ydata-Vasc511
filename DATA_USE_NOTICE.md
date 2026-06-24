@@ -4,7 +4,7 @@ This repository supports the manuscript evaluation of multimodal AI models in ra
 
 ## What This Repository Licenses
 
-Author-generated derivative materials in this repository, such as prompts, reproducibility checklists/recoverability matrices, de-identified row-level output-to-score verification files, statistical summaries, reproducibility notes, web-platform audit logs, and representative de-identified raw-output audit excerpts, may be reused for research, verification, and educational purposes with appropriate citation.
+Author-generated derivative materials in this repository, such as prompts, supplementary methods, de-identified row-level output-to-score verification files, statistical summaries, reproducibility notes, model access/testing metadata, web-platform audit logs, image preprocessing/upload-log summaries, and representative de-identified raw-output audit excerpts, may be reused for research, verification, and educational purposes with appropriate citation.
 
 ## What This Repository Does Not License
 
@@ -23,4 +23,4 @@ The study team did not add direct patient identifiers. Any reuse of patient imag
 
 ## Recommended Practice
 
-Use the derived scoring, reproducibility checklist/recoverability matrix, de-identified output-to-score verification file, web-audit, representative raw-output audit subset, and supplementary files in this repository to verify model-evaluation results. Obtain original article figures or full texts directly from the source publications when needed.
+Use the derived scoring files, reproducibility information integrated across the supplementary methods and Supplementary Data S1-S5, de-identified output-to-score verification file, web-audit, representative raw-output audit subset, and supplementary files in this repository to verify model-evaluation results. Obtain original article figures or full texts directly from the source publications when needed.
