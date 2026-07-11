@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>个人中心 - 医学科研多智能体平台</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo">MedMulti<span>Agents</span></div>
+    <nav class="main-nav">
+      <a href="index.html">首页</a>
+      <a href="classification.html">医学科研分类</a>
+      <a href="secondary-research.html">二次研究全流程</a>
+      <a href="agents.html">智能体交互</a>
+      <a href="profile.html" class="active">个人中心</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <div class="section-header">
+      <h1>个人中心与流程记录</h1>
+      <p>查看已发起的科研流程、历史操作与结果，快速回溯每个智能体环节。</p>
+    </div>
+
+    <section class="profile-grid">
+      <article class="profile-card">
+        <h3>当前流程</h3>
+        <ul id="current-workflows" class="timeline"></ul>
+      </article>
+      <article class="profile-card">
+        <h3>历史记录</h3>
+        <ul id="history-log" class="timeline"></ul>
+      </article>
+      <article class="profile-card">
+        <h3>材料清单 & 待办</h3>
+        <ul id="todo-list" class="todo-list"></ul>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>医学科研多智能体平台 · 个人中心与流程留存</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

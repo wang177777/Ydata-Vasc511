@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>智能体交互 - 医学科研多智能体平台</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo">MedMulti<span>Agents</span></div>
+    <nav class="main-nav">
+      <a href="index.html">首页</a>
+      <a href="classification.html">医学科研分类</a>
+      <a href="secondary-research.html">二次研究全流程</a>
+      <a href="agents.html" class="active">智能体交互</a>
+      <a href="profile.html">个人中心</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <div class="section-header">
+      <h1>智能体交互中心</h1>
+      <p>为每个关键环节提供输入区、处理状态与结果输出区的标准化界面，支持即时反馈与进度同步。</p>
+    </div>
+
+    <section class="agent-panel">
+      <div class="agent-selector">
+        <label for="agent-select">选择智能体</label>
+        <select id="agent-select">
+          <option value="topic">选题智能体</option>
+          <option value="ingestion">数据获取智能体</option>
+          <option value="cleaning">数据清洗智能体</option>
+          <option value="analysis">数据分析智能体</option>
+          <option value="charting">图表制作智能体</option>
+          <option value="writing">论文写作智能体</option>
+          <option value="journal">选刊智能体</option>
+          <option value="submission">投稿智能体</option>
+          <option value="revision">返修智能体</option>
+        </select>
+      </div>
+
+      <div class="agent-layout">
+        <div class="agent-card">
+          <h3>输入区</h3>
+          <textarea id="agent-input" rows="5" placeholder="请输入需求、数据描述或期刊偏好"></textarea>
+          <div class="actions">
+            <button class="btn primary" id="agent-run">运行智能体</button>
+            <button class="btn ghost" id="agent-clear">清空</button>
+          </div>
+        </div>
+        <div class="agent-card">
+          <h3>处理状态</h3>
+          <div id="agent-status" class="status idle">等待中</div>
+          <div class="progress-bar">
+            <div class="progress" id="agent-progress" style="width: 0%"></div>
+          </div>
+        </div>
+        <div class="agent-card output">
+          <h3>结果输出</h3>
+          <pre id="agent-output" class="output-box">尚未生成结果</pre>
+        </div>
+      </div>
+    </section>
+
+    <section class="agent-tips">
+      <h2>交互提示</h2>
+      <ul>
+        <li>选题智能体：描述人群、疾病与对照，获取 10 个可行课题。</li>
+        <li>数据获取智能体：输入检索式或上传后的数据概况，获取数据合规提示。</li>
+        <li>数据清洗智能体：说明字段与缺失情况，获得校验与异常处理建议。</li>
+        <li>数据分析智能体：指定分析类型（系统评价、Meta 分析、综述），获得分析步骤与统计方法。</li>
+        <li>图表制作智能体：上传/描述分析结果，生成森林图、漏斗图或亚组分析草稿。</li>
+        <li>论文写作智能体：输入研究亮点与结果摘要，获取结构化撰写建议。</li>
+        <li>选刊智能体：提供主题、研究类型与影响因子期望，获得推荐列表。</li>
+        <li>投稿智能体：生成材料清单与投稿流程指引。</li>
+        <li>返修智能体：粘贴审稿意见，得到逐条修改建议与进度跟踪。</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>医学科研多智能体平台 · 智能体交互标准化界面</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
