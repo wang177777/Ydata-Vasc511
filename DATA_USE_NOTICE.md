@@ -2,25 +2,25 @@
 
 This repository supports the manuscript evaluation of multimodal AI models in rare and complex cutaneous vascular diseases.
 
-## What This Repository Licenses
+## Materials Covered
 
-Author-generated derivative materials in this repository, such as prompts, supplementary methods, de-identified row-level output-to-score verification files, statistical summaries, reproducibility notes, model access/testing metadata, web-platform audit logs, image preprocessing/upload-log summaries, and representative de-identified raw-output audit excerpts, may be reused for research, verification, and educational purposes with appropriate citation.
+The public release is limited to author-generated prompts and scoring rubrics, final de-identified diagnostic and treatment score fields, supplementary methods, and statistical summaries. These materials may be reused for research, verification, and educational purposes with appropriate citation.
 
-## What This Repository Does Not License
+## Materials Not Distributed or Licensed
 
-This repository does not relicense third-party materials from published case reports, including:
+This repository does not distribute or relicense:
 
-- Patient images.
-- Source-article figures.
-- Publisher-formatted full-text PDFs.
-- Copyrighted article text or layout.
+- Model-output text or extracted diagnosis and treatment text.
+- Platform-history URLs or excerpts.
+- Patient images or source-article figures.
+- Publisher-formatted full-text PDFs or copyrighted article text and layout.
 
-Those materials remain subject to the licenses, permissions, and patient-consent terms of the original publications and publishers.
+Third-party materials remain subject to the licenses, permissions, and patient-consent terms of the original publications and publishers.
 
 ## Privacy
 
-The study team did not add direct patient identifiers. Any reuse of patient images or case-report text must follow the original source publication's consent and copyright terms.
+The study team did not add direct patient identifiers. The public score-only files use numeric case identifiers.
 
 ## Recommended Practice
 
-Use the derived scoring files, reproducibility information integrated across the supplementary methods and Supplementary Data S1-S5, de-identified output-to-score verification file, web-audit, representative raw-output audit subset, and supplementary files in this repository to verify model-evaluation results. Obtain original article figures or full texts directly from the source publications when needed.
+Use the final score-only files and statistical summaries to reproduce the reported aggregate calculations. Obtain original article figures or full text directly from the source publications when needed, and follow their reuse terms.
